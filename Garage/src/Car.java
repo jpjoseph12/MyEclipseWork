@@ -1,18 +1,24 @@
-
 public class Car extends Vehicle {
+	
 	public String make;
 	public String model;
 	public int speed;
 	public int gears;
 	public int seats;
 	
-	public Car (String make, String model, int speed, int gears, int seats, double engineSize, int wheels) {
+	public Car(String make, String model, int speed, int gears, int seats, float engineSize, int wheels) {
+		super(engineSize, wheels);
 		this.make = make;
 		this.model = model;
 		this.speed = speed;
 		this.gears = gears;
 		this.seats = seats;	
-		this.engineSize = engineSize;
-		this.wheels = wheels;
+
+	}
+	public String toString() {
+		return  make + model + speed + gears + seats + engineSize + wheels;
 	}
 }
+
+
+
