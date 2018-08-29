@@ -6,8 +6,9 @@ public class runner {
 		Scanner s = new Scanner(System.in);
 		System.out.println("what's your name?");
 		String name = s.nextLine();
-		 System.out.println(name);
-		 
+		System.out.println(name);
+		
+		
 		
 	}
 

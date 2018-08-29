@@ -16,7 +16,7 @@ public class Car extends Vehicle {
 
 	}
 	public String toString() {
-		return  make + model + speed + gears + seats + engineSize + wheels;
+		return  this.make + this.model + this.speed + this.gears + this.seats + this.engineSize + this.wheels;
 	}
 }
 
